@@ -1,0 +1,274 @@
+sanis@DESKTOP-CBV8HVC MINGW32 /c/STS_work/timeclock
+$ git init
+Initialized empty Git repository in C:/STS_work/timeclock/.git/
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c/STS_work/timeclock (master)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c/STS_work/timeclock (master)
+$ git add .
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in .mvn/wrapper/maven-wrapper.properties.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in mvnw.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in mvnw.cmd.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in pom.xml.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/main/java/com/santest/timeclock/Time                                                                                                                clockApplication.java.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/test/java/com/santest/timeclock/Time                                                                                                                clockApplicationTests.java.
+The file will have its original line endings in your working directory.
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c/STS_work/timeclock (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   .gitignore
+        new file:   .mvn/wrapper/maven-wrapper.jar
+        new file:   .mvn/wrapper/maven-wrapper.properties
+        new file:   clock.db
+        new file:   mvnw
+        new file:   mvnw.cmd
+        new file:   pom.xml
+        new file:   src/main/java/com/santest/timeclock/TimeclockApplication.java
+        new file:   src/main/java/com/santest/timeclock/controller/ClocksController.java
+        new file:   src/main/java/com/santest/timeclock/models/Clock.java
+        new file:   src/main/java/com/santest/timeclock/repositories/ClockRepository.java
+        new file:   src/main/resources/application.properties
+        new file:   src/test/java/com/santest/timeclock/TimeclockApplicationTests.java
+
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c/STS_work/timeclock (master)
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c/STS_work/timeclock (master)
+$ git commit -m 'initial commit'
+[master (root-commit) fa9532a] initial commit
+ 13 files changed, 620 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 .mvn/wrapper/maven-wrapper.jar
+ create mode 100644 .mvn/wrapper/maven-wrapper.properties
+ create mode 100644 clock.db
+ create mode 100644 mvnw
+ create mode 100644 mvnw.cmd
+ create mode 100644 pom.xml
+ create mode 100644 src/main/java/com/santest/timeclock/TimeclockApplication.java
+ create mode 100644 src/main/java/com/santest/timeclock/controller/ClocksController.java
+ create mode 100644 src/main/java/com/santest/timeclock/models/Clock.java
+ create mode 100644 src/main/java/com/santest/timeclock/repositories/ClockRepository.java
+ create mode 100644 src/main/resources/application.properties
+ create mode 100644 src/test/java/com/santest/timeclock/TimeclockApplicationTests.java
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c/STS_work/timeclock (master)
+$
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c/STS_work/timeclock (master)
+$ git remote add origin https://github.com/sanishmr/timeclock.git
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c/STS_work/timeclock (master)
+$ git remote -v
+origin  https://github.com/sanishmr/timeclock.git (fetch)
+origin  https://github.com/sanishmr/timeclock.git (push)
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c/STS_work/timeclock (master)
+$ git push origin master
+fatal: HttpRequestException encountered.
+   An error occurred while sending the request.
+Username for 'https://github.com': sanishmr
+TCounting objects: 32, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (21/21), done.
+Writing objects: 100% (32/32), 48.63 KiB | 2.86 MiB/s, done.
+Total 32 (delta 0), reused 0 (delta 0)
+To https://github.com/sanishmr/timeclock.git
+ * [new branch]      master -> master
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c/STS_work/timeclock (master)
+$
+
+
+
+
+
+
+
+$ cd C:\STS_work\timeclock-ui
+bash: cd: C:STS_worktimeclock-ui: No such file or directory
+
+sanis@DESKTOP-CBV8HVC MINGW32 ~
+$ pwd
+/c/Users/sanis
+
+sanis@DESKTOP-CBV8HVC MINGW32 ~
+$ cd c:
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c
+$ cd STS_work\timeclock-ui
+bash: cd: STS_worktimeclock-ui: No such file or directory
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c
+$ cd STS_work
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c/STS_work
+$ cd timeclock-ui
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c/STS_work/timeclock-ui
+$ pwd
+/c/STS_work/timeclock-ui
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c/STS_work/timeclock-ui
+$ git init
+Initialized empty Git repository in C:/STS_work/timeclock-ui/.git/
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c/STS_work/timeclock-ui (master)
+$ git add .
+warning: LF will be replaced by CRLF in .editorconfig.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in .gitignore.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in README.md.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in angular.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/protractor.conf.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/src/app.e2e-spec.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/src/app.po.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in e2e/tsconfig.e2e.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in package.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app-routing.module.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.component.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.component.spec.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.component.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/app.module.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/components/admin/admin.component                                                                                                                .html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/components/admin/admin.component                                                                                                                .spec.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/components/admin/admin.component                                                                                                                .ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/services/clock.service.spec.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/app/services/clock.service.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/browserslist.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/environments/environment.prod.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/environments/environment.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/index.html.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/karma.conf.js.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/main.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/polyfills.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/styles.css.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/test.ts.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/tsconfig.app.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/tsconfig.spec.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in src/tslint.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tsconfig.json.
+The file will have its original line endings in your working directory.
+warning: LF will be replaced by CRLF in tslint.json.
+The file will have its original line endings in your working directory.
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c/STS_work/timeclock-ui (master)
+$ git commit -m 'initial commit'
+[master (root-commit) ca6561e] initial commit
+ 40 files changed, 7462 insertions(+)
+ create mode 100644 .editorconfig
+ create mode 100644 .gitignore
+ create mode 100644 README.md
+ create mode 100644 angular.json
+ create mode 100644 e2e/protractor.conf.js
+ create mode 100644 e2e/src/app.e2e-spec.ts
+ create mode 100644 e2e/src/app.po.ts
+ create mode 100644 e2e/tsconfig.e2e.json
+ create mode 100644 package.json
+ create mode 100644 proxy.conf.json
+ create mode 100644 proxy.conf_not_req
+ create mode 100644 src/app/app-routing.module.ts
+ create mode 100644 src/app/app.component.css
+ create mode 100644 src/app/app.component.html
+ create mode 100644 src/app/app.component.spec.ts
+ create mode 100644 src/app/app.component.ts
+ create mode 100644 src/app/app.module.ts
+ create mode 100644 src/app/components/admin/admin.component.css
+ create mode 100644 src/app/components/admin/admin.component.html
+ create mode 100644 src/app/components/admin/admin.component.spec.ts
+ create mode 100644 src/app/components/admin/admin.component.ts
+ create mode 100644 src/app/services/clock.service.spec.ts
+ create mode 100644 src/app/services/clock.service.ts
+ create mode 100644 src/assets/.gitkeep
+ create mode 100644 src/browserslist
+ create mode 100644 src/environments/environment.prod.ts
+ create mode 100644 src/environments/environment.ts
+ create mode 100644 src/favicon.ico
+ create mode 100644 src/index.html
+ create mode 100644 src/karma.conf.js
+ create mode 100644 src/main.ts
+ create mode 100644 src/polyfills.ts
+ create mode 100644 src/styles.css
+ create mode 100644 src/test.ts
+ create mode 100644 src/tsconfig.app.json
+ create mode 100644 src/tsconfig.spec.json
+ create mode 100644 src/tslint.json
+ create mode 100644 tsconfig.json
+ create mode 100644 tslint.json
+ create mode 100644 yarn.lock
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c/STS_work/timeclock-ui (master)
+$ git remote -v
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c/STS_work/timeclock-ui (master)
+$
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c/STS_work/timeclock-ui (master)
+$ git remote add origin https://github.com/sanishmr/timeclock-ui.git
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c/STS_work/timeclock-ui (master)
+$ git remote -v
+origin  https://github.com/sanishmr/timeclock-ui.git (fetch)
+origin  https://github.com/sanishmr/timeclock-ui.git (push)
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c/STS_work/timeclock-ui (master)
+$ git push origin master
+fatal: HttpRequestException encountered.
+   An error occurred while sending the request.
+Username for 'https://github.com': sanishmr
+Counting objects: 48, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (45/45), done.
+Writing objects: 100% (48/48), 74.30 KiB | 1014.00 KiB/s, done.
+Total 48 (delta 0), reused 0 (delta 0)
+To https://github.com/sanishmr/timeclock-ui.git
+ * [new branch]      master -> master
+
+sanis@DESKTOP-CBV8HVC MINGW32 /c/STS_work/timeclock-ui (master)
+$

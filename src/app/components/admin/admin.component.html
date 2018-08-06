@@ -1,0 +1,25 @@
+<div class="container">
+  <table class="table table-bordered table-inverse">
+    <tr>
+      <th>Clock Name</th>
+      <th>Store number</th>
+      <th>Clock Type</th>
+      <th class="text-right">Added Date</th>
+    </tr>
+    <tr *ngFor="let clock of clocks">
+      <td>
+        {{clock.clock_name}}
+      </td>
+      <td>
+        {{clock.store_number}}
+      </td>
+      <td>
+        {{clock.clock_type}}
+      </td>
+      <td class="text-right">
+        {{clock.clock_add_date}}
+      </td>
+    </tr>
+  </table>
+</div>
+
